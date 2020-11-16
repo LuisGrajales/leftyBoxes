@@ -1,0 +1,67 @@
+.porducto{
+    width: 40%;
+    height: auto;
+    margin-left: 70px;
+    display: inline-block;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 10px;
+    box-shadow: 1px 3px 40px rgba(0,0,0,.2);
+    margin-bottom: 40px;
+    transition: all 0.8s;
+}
+.porducto:hover{
+    background-color: rgba(240, 240, 240,.2);
+    cursor: pointer;
+}
+.stampDecoration{
+    width: 40px;
+    height: 40px;
+    padding-left: 13px;
+}
+.datosProducto{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+.imagenProducto{
+    width: 200px;;
+    height: auto;
+    margin-left: 90px;
+}
+
+.nombreProducto{
+    font-size: 15px;
+    width: 70%;
+    display: inline;
+    padding-left: 10px;
+    float: left;
+    margin-bottom: 0;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    
+}
+.precioProducto{
+    font-size: 26px;    
+    width: 20%;
+    display: inline;
+    float: right;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-right: 10px;
+    color: rgb(0, 166, 80);
+    
+    
+}
+.infoProducto{
+    font-size: 10px;
+    display: block;
+    width: 85%;
+    font-family:"Poppins", Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 7%;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    
+}
+
