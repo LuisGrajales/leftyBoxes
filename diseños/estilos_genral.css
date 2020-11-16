@@ -147,10 +147,9 @@ h3{
     
 }
 .testimonio{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     float: right;
-    margin-left: 80px;
     box-sizing: border-box;
 }
 
