@@ -139,4 +139,18 @@ p{
 h3{
     cursor: default;
 }
+#testimonio{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #ff7991;
+    
+}
+.testimonio{
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-left: 80px;
+    box-sizing: border-box;
+}
 
