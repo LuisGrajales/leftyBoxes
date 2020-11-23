@@ -30,7 +30,7 @@ body{
     
 }
 #menuitems{
-    height:71%;
+    height:73%;
     background-color: rgba(130, 79, 73,.4); 
     
     
@@ -87,11 +87,11 @@ a{
     padding-top: 20px;
     padding-bottom: 60px;
     padding-bottom: 80px;
-    
 }
-#titulo{
+
+#contenido{
     
-    width: 55%;
+    width: 80%;
     height: auto;
     margin-left: 10%;
     margin-top: 30px;
@@ -102,8 +102,7 @@ a{
     transition: all 0.8s;
     margin-bottom: 50px;
 }
-#contenido{
-    
+#contenidoPrincipal{
     width: 52.5%;
     height: auto;
     margin-left: 10%;
@@ -138,6 +137,19 @@ p{
 }
 h3{
     cursor: default;
+}
+#titulo{
+    
+    width: 55%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 10px;
+    box-shadow: 1px 3px 40px rgba(0,0,0,.5);
+    transition: all 0.8s;
+    margin-bottom: 50px;
 }
 #testimonio{
     width: 100%;
