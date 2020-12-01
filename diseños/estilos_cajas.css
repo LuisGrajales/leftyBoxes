@@ -7,7 +7,7 @@
     border-radius: 10px;
     box-shadow: 1px 3px 40px rgba(0,0,0,.2);
     margin-bottom: 40px;
-    transition: all 0.8s;
+    transition: all 0.5s;
 }
 .porducto:hover{
     background-color: rgba(240, 240, 240,.2);
@@ -25,30 +25,33 @@
     
 }
 .imagenProducto{
-    width: 200px;;
-    height: auto;
+    width: 200px;
+    height: 200px;
     margin-left: 90px;
+    border-radius: 5px
 }
 
 .nombreProducto{
-    font-size: 15px;
+    font-size: 25px;
     width: 70%;
     display: inline;
-    padding-left: 10px;
+    padding-left: 5%;
     float: left;
     margin-bottom: 0;
-    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-family:"Poppins", Arial, Helvetica, sans-serif;
+    color: #8E3F4D;
     
 }
 .precioProducto{
-    font-size: 26px;    
+    font-size: 30px;    
+    font-weight: bold;
     width: 20%;
     display: inline;
     float: right;
     font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     margin-bottom: 0px;
-    margin-top: 4px;
-    margin-right: 10px;
+    margin-top: 5px;
+    margin-right: 5%;
     color: rgb(0, 166, 80);
     
     
@@ -64,4 +67,60 @@
     padding-top: 30px;
     
 }
+.imagenProducto:hover{
+    background-image: url(../imagenes/cajas/m1c2.jpg)
+}
 
+.zoom{
+    transition: transform .8s;
+    width: 200px;
+    height: 200px;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+.zoom:hover{
+    transform: scale(3);
+}
+
+.infprod{
+    font-size: 16px;
+    display: block;
+    width: 85%;
+    font-family: "Segoe UI";
+    text-align: justify;
+    padding-left: 7%;
+    
+}
+.descripcion{
+    font-size: 17px;
+    font-weight: bold;
+    color: #cf7368;
+    display: block;
+    width: 85%;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    padding-left: 7%;
+    
+}
+.costoEnvio{
+    font-size: 16px;
+    color: #E42222;
+    font-weight: bold;
+    display: block;
+    width: 85%;
+    font-family: "Segoe UI";
+    text-align: right;
+    padding-left: 7%;
+}
+.costoUnitario{
+    color:#01B5C4;
+    display: block;
+    width: 85%;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: right;
+    padding-left: 7%;
+    /* margin-bottom: 0px; */
+    margin-top: 4px;
+    margin-right: 5%;
+
+}
